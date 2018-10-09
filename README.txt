@@ -1,3 +1,23 @@
+form_filler V3.0
+~*~*~*~*~*~*~*~*~*~*~*~*~
+New this version:
+
+This version brings with it the addition of saving and another refactoring of
+the data structure to accomodate it. The change means that there is no longer
+a limit placed on the amount of assignments the user can create and upon
+creation of the assignments they are now saved for future use.
+
+The editing feature has not yet been implemented to the program and attempts
+to edit the data will only allow for a selection of an assignment and nothing
+else.
+
+Most error handling has now been taken care of and there should be no(to the
+degree that is expectable) sudden crashes.
+
+To Do:
+- Add the view & edit feature
+- Ability to cancel mistaken assignment creation once undertaken
+~*~*~*~*~*~*~*~*~*~*~*~*~
 form_filler V2.0
 ~*~*~*~*~*~*~*~*~*~*~*~*~
 New this version:
