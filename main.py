@@ -81,7 +81,7 @@ print(f"\n{period}? Okay. Now enter the submission date.")
 
 subdate = input(prompt)
 
-    while True:
+while True:
         print(f'''
         ┌─────────────────────────┐
         │         Welcome         │
@@ -213,7 +213,7 @@ subdate = input(prompt)
                     while True:
                         answer == 'Y'
 
-                        target = trans_select()
+                        target = trans_select(transports)
 
                         date = grab_date()
 
@@ -236,6 +236,8 @@ subdate = input(prompt)
 
                         print('Did you buy a drink?')
 
+                        drink_answer = input(prompt)
+                        
                         if drink_answer == 'Y':
                             print('How much did you pay?')
                             amount = input(prompt)
